@@ -75,7 +75,7 @@ function make_scatter_plot_left() {
                 .on("end", () => {})
             );
 
-        // Create Y axis
+        // Create Y axis 
         FRAME1.append("g")
             .attr("transform",
                 "translate(" + (VIS_HEIGHT / 50) + "," + (MARGINS.top) + ")")
