@@ -1,0 +1,38 @@
+* {
+	font: Arial;
+}
+
+/* Center text */
+.centered {
+    text-align: center;
+}
+
+/* Create rows */
+.row {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+/* create columns */
+.leftColumn {
+    float: left;
+    width: 33%;
+}
+
+.middleColumn {
+    float: left;
+    width: 33%;
+}
+
+.rightColumn {
+    float: left;
+    width: 33%
+}
+
+/* highlighted/brushed points */
+.selected {
+    opacity: 1;
+    stroke: black;
+    stroke-width: 1px;
+}
