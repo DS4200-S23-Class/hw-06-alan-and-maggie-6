@@ -1,0 +1,38 @@
+/* Make all the font Arial*/
+body {
+    font: Arial;
+}
+
+/* Center text */
+.centered {
+    text-align: center;
+}
+
+/* Create rows */
+.row {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+/* create columns using images and text */
+.leftColumn {
+    float: left;
+    width: 33%;
+}
+
+.middleColumn {
+    float: left;
+    width: 33%;
+}
+
+.rightColumn {
+    float: left;
+    width: 33%
+}
+
+.selected {
+    opacity: 1;
+    stroke: black;
+    stroke-width: 1px;
+}
